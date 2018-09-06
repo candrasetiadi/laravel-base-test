@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## Requirement
+PHP >= 7.1.3
+OpenSSL PHP Extension
+PDO PHP Extension
+Mbstring PHP Extension
+Tokenizer PHP Extension
+XML PHP Extension
+Ctype PHP Extension
+JSON PHP Extension
+
+## How to install
+- Clone this repository
+- Make your .env file or save as from .env.example and then setting your databases configuration
+- run php artisan key:generate
+- run php artisan migrate  => for migrate the database
+- run php artisan db:seed => for seeding the fake data to your database
+- run phpunit => for run unit test
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
